@@ -1,0 +1,1 @@
+{"version":3,"file":"alignment.d.ts","sourceRoot":"","sources":["../../src/plugins/alignment.tsx"],"names":[],"mappings":"AA8BA,OAAO,MAA6B,MAAM,UAAU,CAAC;AAGrD,OAAO,EAAE,mBAAmB,EAAE,MAAM,mBAAmB,CAAC;AAGxD,MAAM,WAAW,uBAAwB,SAAQ,mBAAmB;IAClE,YAAY,CAAC,EAAE,MAAM,CAAC;CACvB;AA6BD,MAAM,CAAC,OAAO,OAAO,eAAgB,SAAQ,MAAM;IACjD,IAAI,SAAe;gBAEP,KAAK,GAAE,uBAA4B;CAUhD"}
