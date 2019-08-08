@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../src/DisplayModeToggle/index.tsx"],"names":[],"mappings":"AAqBA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAQ/B,OAAO,EAAE,aAAa,EAAE,MAAM,qBAAqB,CAAC;AAEpD,QAAA,MAAM,mBAAmB;;;;;;CAMxB,CAAC;AAEF,QAAA,MAAM,KAAK,EAAE,KAAK,CAAC,GAAG,CAAC,aAAa,GAAG;IAAE,YAAY,CAAC,EAAE,OAAO,mBAAmB,CAAA;CAAC,CA6BlF,CAAC;AAEF,eAAe,KAAK,CAAC"}
