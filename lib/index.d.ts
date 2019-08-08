@@ -1,0 +1,3 @@
+declare const plugin: Pick<import("@react-page/core/lib/service/plugin/classes").ContentPluginProps<import("./types/state").DividerState>, "text" | "name" | "version" | "Component" | "IconComponent" | "serialize" | "unserialize" | "description" | "handleRemoveHotKey" | "handleFocusNextHotKey" | "handleFocusPreviousHotKey" | "handleFocus" | "handleBlur" | "reducer" | "migrations" | "createInitialState" | "allowInlineNeighbours" | "isInlineable">;
+export default plugin;
+//# sourceMappingURL=index.d.ts.map
