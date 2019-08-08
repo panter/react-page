@@ -1,0 +1,3 @@
+declare const plugin: Pick<import("@react-page/core/lib/service/plugin/classes").ContentPluginProps<import("./types/state").SpacerState>, "allowInlineNeighbours" | "isInlineable" | "Component" | "name" | "version" | "IconComponent" | "text" | "serialize" | "unserialize" | "description" | "handleRemoveHotKey" | "handleFocusNextHotKey" | "handleFocusPreviousHotKey" | "handleFocus" | "handleBlur" | "reducer" | "migrations" | "createInitialState">;
+export default plugin;
+//# sourceMappingURL=index.d.ts.map

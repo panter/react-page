@@ -1,0 +1,1 @@
+{"version":3,"file":"createPlugin.d.ts","sourceRoot":"","sources":["../src/createPlugin.tsx"],"names":[],"mappings":"AA0BA,OAAO,EAAE,mBAAmB,EAAE,MAAM,6CAA6C,CAAC;AAClF,OAAO,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAElD,OAAO,EAAE,WAAW,EAAE,MAAM,eAAe,CAAC;AAG5C,QAAA,MAAM,YAAY,EAAE,CAClB,QAAQ,EAAE,cAAc,KACrB,mBAAmB,CAAC,WAAW,CAsCnC,CAAC;AAEF,eAAe,YAAY,CAAC"}
