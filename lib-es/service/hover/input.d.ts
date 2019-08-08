@@ -1,0 +1,6 @@
+import { ComponetizedCell } from '../../types/editable';
+import { Callbacks } from '../../types/hover';
+export declare const computeCurrentDropPosition: (actions: Callbacks, hover: ComponetizedCell, drag: ComponetizedCell, monitor: any, component: import("react").ReactInstance, matrixName: string) => void;
+export declare const computeAndDispatchInsert: ({ insertCellAbove: above, insertCellBelow: below, insertCellLeftOf: leftOf, insertCellRightOf: rightOf, insertCellLeftInline: inlineLeft, insertCellRightInline: inlineRight, clearHover: clear, ...hover }: ComponetizedCell, drag: ComponetizedCell, monitor: any, component: import("react").ReactInstance, matrixName?: string) => void;
+export declare const computeAndDispatchHover: ({ cellHoverAbove: above, cellHoverBelow: below, cellHoverLeftOf: leftOf, cellHoverRightOf: rightOf, cellHoverInlineLeft: inlineLeft, cellHoverInlineRight: inlineRight, clearHover: clear, ...hover }: ComponetizedCell, drag: ComponetizedCell, monitor: any, component: import("react").ReactInstance, matrixName?: string) => void;
+//# sourceMappingURL=input.d.ts.map
