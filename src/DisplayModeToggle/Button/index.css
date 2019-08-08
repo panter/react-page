@@ -1,0 +1,49 @@
+/*!
+ * This file is part of ORY Editor.
+ *
+ * ORY Editor is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * ORY Editor is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with ORY Editor.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @license LGPL-3.0
+ * @copyright 2016-2018 Aeneas Rekkas
+ * @author Aeneas Rekkas <aeneas+oss@aeneas.io>
+ *
+ */
+
+.ory-controls-mode-toggle-button-inner {
+  float: right;
+  margin: 8px;
+}
+
+.ory-controls-mode-toggle-button-description {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  margin-top: 18px;
+  float: right;
+  background: transparent;
+  color: transparent;
+  border: 1px transparent solid;
+  padding: 2px 8px;
+  text-align: right;
+  max-width: 0;
+  transition: all 200ms ease;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ory-controls-mode-toggle-button:hover .ory-controls-mode-toggle-button-description {
+  max-width: 999px;
+  background: var(--darkBlack);
+  color: var(--white);
+  border: 1px solid var(--faintBlack);
+}

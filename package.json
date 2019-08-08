@@ -1,0 +1,47 @@
+{
+  "name": "@react-page/ui",
+  "version": "0.1.1",
+  "author": "ORY GmbH",
+  "license": "GNU Lesser General Public License v3.0",
+  "main": "./lib/index.js",
+  "module": "./lib-es/index.js",
+  "typings": "./lib/index.d.ts",
+  "scripts": {
+    "build": "npm-run-all --parallel build:lib build:css",
+    "build:watch": "npm-run-all --parallel build:lib:watch build:css:watch",
+    "build:lib": "tsc -p ./tsconfig.json && tsc -p ./tsconfig-es.json",
+    "build:lib:watch": "npm run build:lib -- --watch",
+    "build:css": "postcss -c ../../postcss.config.js --dir lib/ src/index.css",
+    "build:css:watch": "npm run build:css -- -w",
+    "docs": "documentation build ./lib/**/*.js --format md --github -o ../../docs/api/ui.md",
+    "prebuild": "npm run clean",
+    "clean": "rimraf \"lib/**/*\""
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^3.0.0",
+    "@material-ui/icons": "^3.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-jss": "^8.6.1"
+  },
+  "dependencies": {
+    "@react-page/core": "0.0.0",
+    "classnames": "^2.2.5",
+    "device.js": "^2.3.0",
+    "lodash.throttle": "^4.1.1",
+    "rc-tooltip": "^3.4.3",
+    "react-color": "^2.14.1",
+    "react-dnd": "^2.4.0",
+    "react-redux": "^5.0.4",
+    "reselect": "^3.0.0",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/react-color": "^2.13.6",
+    "@types/react-redux": "^6.0.11",
+    "@types/redux": "^3.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
