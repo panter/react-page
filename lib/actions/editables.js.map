@@ -1,0 +1,1 @@
+{"version":3,"file":"editables.js","sourceRoot":"","sources":["../../src/actions/editables.ts"],"names":[],"mappings":";AAAA;;;;;;;;;;;;;;;;;;;;GAoBG;;AAIH,qCAAgC;AAEnB,QAAA,eAAe,GAAG,iBAAiB,CAAC;AAQpC,QAAA,cAAc,GAAG,UAAC,QAAsB,IAA2B,OAAA,CAAC;IAC/E,IAAI,EAAE,uBAAe;IACrB,EAAE,EAAE,IAAI,IAAI,EAAE;IACd,QAAQ,UAAA;IACR,GAAG,EAAE,aAAG,CAAC,CAAC,CAAC;CACZ,CAAC,EAL8E,CAK9E,CAAC"}
